@@ -17,13 +17,11 @@ public class HashTagTokenizer {
 		{
 			dictionary[i] = in.readString();
 		}
-		// Your code here
 
 		return dictionary;
 	}
 
 	public static boolean existInDictionary(String word, String []dictionary) {
-		// Your code here
 		for(int i=0; i<dictionary.length; i++)
 		{
 			if (dictionary[i].equals(word))
